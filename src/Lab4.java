@@ -53,7 +53,6 @@ public class Lab4 {
                     default:
                         System.out.println("Wrong option");
                 }
-
             }
         }
     }
