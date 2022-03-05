@@ -1,4 +1,4 @@
-public class Lab3 {
+public class Lab3cham1 {
     public static void main(String[] args) {
         //Count how many odd, even number(s) in an integer array
         int[] intArr = {1, 2, 3, 4, 5};
