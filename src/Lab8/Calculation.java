@@ -34,8 +34,8 @@ public class Calculation {
         System.out.printf("Total salary of Contract Employee: %.2f", salaryContractTotal);
     }
 
-    public double salaryEmp(double salary, double days, double workingDay) {
-        return salary / days * workingDay;
+    public double salaryEmp(double salary, double workingDay, double actualWorkingDay) {
+        return salary / workingDay * actualWorkingDay;
     }
 
     public int workingDayCal(int month) {
