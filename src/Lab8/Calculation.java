@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class Calculation {
     public static void main(String[] args) {
-        double SALARY_FULL_TIME_EMP = 50000;
-        double SALARY_CONTRACT_EMP = 40000;
+        int SALARY_FULL_TIME_EMP = 50000;
+        int SALARY_CONTRACT_EMP = 40000;
         int WORKING_DAY = 26;
 
         Scanner userInputFTEmp = new Scanner(System.in);
@@ -34,7 +34,7 @@ public class Calculation {
         System.out.printf("Total salary of Contract Employee: %.2f", salaryContractTotal);
     }
 
-    public double salaryEmp(double salary, double workingDay, double actualWorkingDay) {
+    public double salaryEmp(double salary, int workingDay, int actualWorkingDay) {
         return salary / workingDay * actualWorkingDay;
     }
 
