@@ -17,7 +17,7 @@ public class Calculation {
         int numberContract = userInputContractEmp.nextInt();
 
         Scanner userInputMonth = new Scanner(System.in);
-        System.out.println("Please enter a month want to check?");
+        System.out.println("Please enter the month you want to check");
         int month = userInputMonth.nextInt();
 
         Calculation calculation = new Calculation();
