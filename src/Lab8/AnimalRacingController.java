@@ -1,10 +1,17 @@
 package Lab8;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
 public class AnimalRacingController {
     public Animal getWinner(List<Animal> animalList) {
+        if(animalList.equals(null) || animalList.size()==0){
+            throw new IllegalArgumentException("Animal List can't be null");
+        }
+        if (animalList.size() == 1){
+            return animalList.get(0);
+        }
         Animal winner = null;
         for (Animal animal : animalList) {
             if (winner == null) {

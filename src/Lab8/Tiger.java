@@ -5,5 +5,6 @@ public class Tiger extends Animal{
     public Tiger() {
         super();
         speed = generateRandomSpeed(TIGER_MAX_SPEED);
+        System.out.println("Tiger: " +  speed);
     }
 }
